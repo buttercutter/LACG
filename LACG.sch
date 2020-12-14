@@ -240,6 +240,7 @@ value=".control
 tran 0.01n 300n
 plot clk clk_g+2 V1+4 V2+6 V3+8
 #plot clk clk_g+2 XC+4 Q_C+6 D_C+8 x22X_C+10 x17X_C+12 x21X_C+14 x17A_C+16
+write LACG.raw
 .endc"}
 C {devices/launcher.sym} -1740 250 0 0 {name=h1
 descr="sky130_models.tcl"
