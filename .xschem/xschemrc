@@ -244,9 +244,9 @@ set XSCHEM_LIBRARY_PATH {}
 append XSCHEM_LIBRARY_PATH :${XSCHEM_SHAREDIR}/xschem_library
 
 # https://github.com/StefanSchippers/xschem_sky130/
-append XSCHEM_LIBRARY_PATH :~/xschem_sky130
-lappend tcl_files ~/xschem_sky130/scripts/sky130_models.tcl
+append XSCHEM_LIBRARY_PATH :~/skywater/xschem_sky130
+lappend tcl_files ~/skywater/xschem_sky130/scripts/sky130_models.tcl
 
 # https://github.com/mabrains/sky130_ubuntu_setup
-set SKYWATER_MODELS ~/mabrains/skywater-pdk/libraries/sky130_fd_pr/latest
-set SKYWATER_STDCELLS ~/mabrains/skywater-pdk/libraries/sky130_fd_sc_hd/latest
+set SKYWATER_MODELS ~/skywater/skywater-pdk/libraries/sky130_fd_pr/latest
+set SKYWATER_STDCELLS ~/skywater/skywater-pdk/libraries/sky130_fd_sc_hd/latest
